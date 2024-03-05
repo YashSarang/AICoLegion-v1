@@ -1,0 +1,10 @@
+.Hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assestsFInal/DarkBlueSkywithStars.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    /* Very Important for responsive bg */
+}
+    
