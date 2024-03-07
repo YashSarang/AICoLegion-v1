@@ -6,16 +6,21 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     z-index: 10;
-    
+    position: fixed;
+    top: 0;
+    left: 0;    
+    background: transparent;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
+    background: transparent;
 }
+
 .navbar-logo-image{
-    max-width: 10vw;
-    max-height: 10vh;
+    max-width: 8vw;
+    max-height: 8vh;
     margin-right: 2vw;
     margin-left: 2vw;
     border-radius: 100%;
@@ -25,10 +30,11 @@ nav ul li {
     list-style: none;
     display: inline;
     margin: 0 1vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: 700;
-    color: #000;
     text-transform: uppercase;
     cursor: pointer;
-    justify-content: flex-end; /* Align at right */
+    justify-content: space-between;
+    color: aliceblue;
+
 }

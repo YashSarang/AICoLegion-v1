@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import Logo_MedRes from "../assestsFInal/Logo_MedRes.jpg";
+import LogoMedRes from "../assestsFInal/LogoMedRes.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img className="navbar-logo-image" src={Logo_MedRes} alt="Logo" />
+        <img className="navbar-logo-image" src={LogoMedRes} alt="Logo" />
       </div>
       <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="navbar-items">
